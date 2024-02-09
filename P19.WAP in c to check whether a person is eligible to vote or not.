@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main() {
+    int birth_year, age;
+    printf("Enter birth year: ");
+    scanf("%d", &birth_year);
+    age = 2023 - birth_year;
+    if (age >= 18) {
+        printf("The person is eligible to vote.\n");
+    } else {
+        printf("The person is not eligible to vote.\n");
+    }
+}
