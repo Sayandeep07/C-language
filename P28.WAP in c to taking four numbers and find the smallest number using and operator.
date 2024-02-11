@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main(){
+    int a, b, c, d;
+    printf("Enter First the numbers:\n");
+    scanf("%d",&a);
+    printf("Enter Second the numbers:\n");
+    scanf("%d",&b);
+    printf("Enter Third the numbers:\n");
+    scanf("%d",&c);
+    printf("Enter Fourth the numbers:\n");
+    scanf("%d",&d);
+    if ((a <= b) && (a <= c) && (a <= d))
+        printf("The smallest number is: %d", a);
+    else if ((b <= a) && (b <= c) && (b <= d))
+        printf("The smallest number is: %d", b);
+    else if ((c <= a) && (c <= b) && (c <= d))
+        printf("The smallest number is: %d", c);
+    else
+        printf("The smallest number is: %d", d);
+}
