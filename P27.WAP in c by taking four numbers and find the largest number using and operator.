@@ -1,8 +1,14 @@
 #include<stdio.h>
 int main(){
     int a, b, c, d;
-    printf("Enter the numbers:\n");
-    scanf("%d%d%d%d", &a, &b, &c, &d);
+    printf("Enter First the numbers:\n");
+    scanf("%d",&a);
+    printf("Enter Second the numbers:\n");
+    scanf("%d",&b);
+    printf("Enter Third the numbers:\n");
+    scanf("%d",&c);
+    printf("Enter Fourth the numbers:\n");
+    scanf("%d",&d);
     if ((a >= b) && (a >= c) && (a >= d))
         printf("The largest number is: %d", a);
     else if ((b >= a) && (b >= c) && (b >= d))
