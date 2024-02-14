@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <ctype.h>
+int main() {
+    char a;
+    int p, q, r, s;
+    printf("Enter a character: ");
+    scanf("%c", &a);
+    p = isdigit(a);
+    q = isalpha(a);
+    r = ispunct(a);
+    s = isspace(a);
+    if (p) {
+        printf("The character %c entered is a digit", a);
+    } else if (q) {
+        printf("The character %c entered is a alphabet", a);
+    } else if (r) {
+        printf("The character %c entered is a punctuation character", a);
+    } else if (s) {
+        printf("The character %c entered is space", a);
+    } else {
+        printf("WRONG CHOICE!");
+    }
+}
