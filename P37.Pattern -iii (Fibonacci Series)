@@ -15,3 +15,15 @@ temp2=temp1+temp2;
 temp1=backup;
 }
 }
+
+Output:
+
+Limit:
+6
+* 
+* 
+* * 
+* * * 
+* * * * * 
+* * * * * * * * 
+* * * * * * * * * * * * * 
